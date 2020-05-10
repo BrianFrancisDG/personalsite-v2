@@ -40,16 +40,13 @@ const Banner = () => {
             <div className="container">
                 <div className="row">
                     <div className="sideBackground left">
-                        <Img fluid={data.diamonds.childImageSharp.fluid} />
                     </div>
                     <div className="mainText">
-                        Brian Francis De Guzman
+                        Brian De Guzman
                     </div>
                     <div className="centerBackground">
-                        <Img fluid={data.poppinShades.childImageSharp.fluid} />
                     </div>
                     <div className="sideBackground right">
-                        <Img fluid={data.orange.childImageSharp.fluid} />
                     </div>
                 </div>
                 <div className="scroll">

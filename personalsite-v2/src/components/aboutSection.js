@@ -50,16 +50,13 @@ const AboutSection = () => {
                     </div>
                     <div className="images">
                         <div className="topRight">
-                            <Img fluid={data.poppinShades.childImageSharp.fluid} />
                         </div>
                         <div className="bottomLeft">
-                            <Img fluid={data.diamonds.childImageSharp.fluid} />
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="blackBox"></div>
-            <div className="blackBox overlay"></div>
+            <div className="rectangleBox"></div>
         </div>
     )
 }
