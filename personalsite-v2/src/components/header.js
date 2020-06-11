@@ -5,14 +5,14 @@ const Header = () => (
   <header>
     <div className="container">
       <div className="innerHeader">
-        <div className="logo">
+        {/* <div className="logo">
           <Link to="/">BDG</Link>
-        </div>
+        </div> */}
         <div className="navigation">
           <nav>
-            <Link to="/about">About</Link>
-            <Link to="/work">Work</Link>
-            <Link to="/contact">Contact</Link>
+            <Link to="/about">LinkedIn</Link>
+            <Link to="/work">GitHub</Link>
+            {/* <Link to="/contact">Contact</Link> */}
           </nav>
         </div>
       </div>

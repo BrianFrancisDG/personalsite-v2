@@ -6,12 +6,14 @@ import "../styles/styles.scss"
 import Header from "../components/header"
 import Banner from "../components/banner"
 import AboutSection from "../components/aboutSection"
+import SubText from "../components/subText"
 
 const IndexPage = () => (
-  <div>
+  <div className="grid">
     <Header />
     <Banner />
-    <AboutSection />
+    <SubText />
+    {/* <AboutSection /> */}
   </div>
 )
 

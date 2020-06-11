@@ -36,28 +36,34 @@ const Banner = () => {
     `)
 
     return(
-        <div className="banner">
-            <div className="container">
-                <div className="row">
-                    <div className="sideBackground left">
-                    </div>
-                    <div className="mainText">
-                        Brian De Guzman
-                    </div>
-                    <div className="centerBackground">
-                    </div>
-                    <div className="sideBackground right">
-                    </div>
-                </div>
-                <div className="scroll">
-                    <span>Scroll Down</span>
-                </div>
-            </div>
-            <div className="fixedMisc">
-                Software Engineer
-            </div>
-
+        <div className="mainText">
+            Hi,I'm Brian!
         </div>
+
+        
+        // <div className="banner">
+        //     <div className="container">
+        //         <div className="row">
+        //             <div className="sideBackground left">
+        //             </div>
+        //             <div className="mainText">
+        //                 Brian De Guzman
+        //             </div>
+        //             <div className="centerBackground">
+        //             </div>
+        //             <div className="sideBackground right">
+        //             </div>
+        //         </div>
+        //         {/* <div className="scroll">
+        //             <span>Scroll Down</span>
+        //         </div> */}
+        //         {/* <a class="btn-large" href="#">Button Large</a> */}
+        //     </div>
+        //     {/* <div className="fixedMisc">
+        //         Software Engineer
+        //     </div> */}
+
+        // </div>
     )
 }
 
