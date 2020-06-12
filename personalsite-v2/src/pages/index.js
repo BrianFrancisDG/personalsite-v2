@@ -7,12 +7,14 @@ import Header from "../components/header"
 import Banner from "../components/banner"
 import AboutSection from "../components/aboutSection"
 import SubText from "../components/subText"
+import Buttons from "../components/buttons"
 
 const IndexPage = () => (
   <div className="grid">
     <Header />
     <Banner />
     <SubText />
+    <Buttons />
     {/* <AboutSection /> */}
   </div>
 )
