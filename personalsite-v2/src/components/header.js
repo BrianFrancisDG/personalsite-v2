@@ -10,8 +10,8 @@ const Header = () => (
         </div> */}
         <div className="navigation">
           <nav>
-            <Link to="/about">LinkedIn</Link>
-            <Link to="/work">GitHub</Link>
+            <a href="https://www.linkedin.com/in/brian-francis-de-guzman/">LinkedIn</a>
+            <a href="https://github.com/BrianFrancisDG">GitHub</a>
             {/* <Link to="/contact">Contact</Link> */}
           </nav>
         </div>

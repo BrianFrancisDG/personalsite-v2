@@ -18,7 +18,6 @@ html, body{
 
 .grid{
     display: grid;
-    //grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-template-columns: [line1] 1fr [line2] 1fr [line3] 1fr [line4] 1fr [line5];
     grid-template-rows: [row1] 1fr [row2] 1fr [row3] 1fr [row4] 25% [row5];
     grid-template-areas: 
@@ -136,8 +135,4 @@ header{
         @include button;
     }
     
-    .btn-large {
-        @include button(20px 30px, 22px);
-        margin: 10px;
-    }
 }
