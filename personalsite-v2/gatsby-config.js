@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Hi, I'm Brian!`,
+    description: `Version two of my personal website.`,
+    author: `Brian Francis De Guzman`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,7 +24,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/icon8-glasses-32.png`, // This path is relative to the root of the site.
+        icon: `src/images/icons8-glasses-32.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-sass`
