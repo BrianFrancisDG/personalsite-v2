@@ -5,7 +5,6 @@ import "../styles/styles.scss"
 //Import Components
 import Header from "../components/header"
 import Banner from "../components/banner"
-import AboutSection from "../components/aboutSection"
 import SubText from "../components/subText"
 import Buttons from "../components/buttons"
 
@@ -15,7 +14,6 @@ const IndexPage = () => (
     <Banner />
     <SubText />
     <Buttons />
-    {/* <AboutSection /> */}
   </div>
 )
 
