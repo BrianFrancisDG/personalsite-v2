@@ -42,10 +42,10 @@ html, body{
     text-align: center;
     //mix-blend-mode: difference;
     z-index: 9;
-    @media(max-width: 1440px) {
+    @media(max-width: 768px) {
         font-size: 3.5rem;
-        letter-spacing: 25px;
     }
+
 }
 
 .subText{
@@ -59,10 +59,10 @@ html, body{
 
     grid-column-start: line2;
 
-    @media(max-width: 1440px) {
+    @media(max-width: 768px) {
         grid-column-start: line1;
         grid-column-end: line5;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
 
